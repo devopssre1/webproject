@@ -18,4 +18,27 @@
   <build>
     <finalName>ekart</finalName>
   </build>
+  <distributionManagement>
+      <repository>
+        <id>tom</id>
+        <name>tom</name>
+        <url>http://localhost:8080</url>
+    </repository>
+    </distributionManagement>
+  
+ 
+  <build>
+    <finalName>ekart</finalName>
+    <plugins>
+     <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>2.3</version>
+            <configuration>
+             <warName>ekart</warName>
+             <outputDirectory>/home/sriram/softwares/apache-tomcat-7.0.78/webapps</outputDirectory>
+            </configuration>
+       </plugin>
+      </plugins>
+
 </project>
