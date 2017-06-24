@@ -26,7 +26,6 @@
     </repository>
     </distributionManagement>
   
- 
   <build>
     <finalName>ekart</finalName>
     <plugins>
@@ -40,5 +39,4 @@
             </configuration>
        </plugin>
       </plugins>
-
 </project>
